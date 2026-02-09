@@ -290,6 +290,15 @@
       opacity: 1;
     }
   }
+
+  /* Animation Gradient */
+  --animate-gradient: gradient var(--tw-duration) var(--tw-ease)
+    var(--tw-animation-iteration-count);
+  @keyframes gradient {
+    to {
+      background-position: var(--bg-size, 300%) 0;
+    }
+  }
 }
 
 @layer base {
