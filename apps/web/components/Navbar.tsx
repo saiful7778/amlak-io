@@ -20,6 +20,11 @@ export default function Navbar() {
                 <Link href="#home">Home</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink asChild>
+                <Link href="#capabilities">Capabilities</Link>
+              </NavigationMenuLink>
+            </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
         <div className="flex items-center gap-3 md:gap-4">
