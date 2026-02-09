@@ -16,7 +16,9 @@
     "lint": "turbo lint",
     "format": "turbo format",
     "clean": "bash ./scripts/clean.sh",
-    "prepare": "husky"
+    "prepare": "husky",
+    "docker-dev:up": "docker compose -f ./infra/docker/docker-compose-dev.yml -p amlak_io up -d",
+    "docker-dev:down": "docker compose -f ./infra/docker/docker-compose-dev.yml -p amlak_io down"
   },
   "devDependencies": {
     "@workspace/eslint-config": "workspace:*",
