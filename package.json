@@ -2,11 +2,20 @@
   "name": "amlak-io",
   "version": "0.0.1",
   "private": true,
+  "license": "MIT",
+  "author": "Saiful Islam <saiful.islam.rafi.88@gmail.com>",
+  "contributors": [
+    {
+      "name": "Saiful Islam",
+      "email": "saiful.islam.rafi.88@gmail.com"
+    }
+  ],
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "turbo format",
+    "clean": "bash ./scripts/clean.sh"
   },
   "devDependencies": {
     "@workspace/eslint-config": "workspace:*",
@@ -17,6 +26,6 @@
   },
   "packageManager": "pnpm@10.4.1",
   "engines": {
-    "node": ">=20"
+    "node": ">=24"
   }
 }

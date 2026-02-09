@@ -8,6 +8,17 @@
     "./next-js": "./next.js",
     "./react-internal": "./react-internal.js"
   },
+  "license": "MIT",
+  "author": "Saiful Islam <saiful.islam.rafi.88@gmail.com>",
+  "contributors": [
+    {
+      "name": "Saiful Islam",
+      "email": "saiful.islam.rafi.88@gmail.com"
+    }
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
     "@next/eslint-plugin-next": "^16.1.6",
