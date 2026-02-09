@@ -15,7 +15,8 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "turbo format",
-    "clean": "bash ./scripts/clean.sh"
+    "clean": "bash ./scripts/clean.sh",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@workspace/eslint-config": "workspace:*",
@@ -27,5 +28,11 @@
   "packageManager": "pnpm@10.4.1",
   "engines": {
     "node": ">=24"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.29.8",
+    "@commitlint/cli": "^20.4.1",
+    "@commitlint/config-conventional": "^20.4.1",
+    "husky": "^9.1.7"
   }
 }
